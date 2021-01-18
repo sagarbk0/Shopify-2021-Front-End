@@ -119,6 +119,11 @@ const App = () => {
       <Row>
         <input id="searchName" placeholder="Search" />
         <input id="searchYear" type="number" placeholder="Year" />
+		{/* Not functional currently, but would implement by storing username, password and user's nominations array in MongoDB */}
+        <input type="textField" placeHolder="username" />
+        <input type="password" placeHolder="password" />
+        <button>Save collection</button>
+        <button>Load collection</button>
       </Row>
       <Row>
         <Col>
