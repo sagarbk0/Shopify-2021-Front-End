@@ -118,7 +118,7 @@ const App = () => {
       <Row><p>Search for movies and add them as nominations</p></Row>
       <Row>
         <input id="searchName" placeholder="Search" />
-        <input id="searchYear" type="number" placeholder="Year" />
+        <input className="mr-4" id="searchYear" type="number" placeholder="Year" />
 		{/* Not functional currently, but would implement by storing key and user's nominations array in MongoDB */}
         <input type="textField" placeHolder="key" />
         <button className="mr-4">Load collection</button>
