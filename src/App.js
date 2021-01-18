@@ -121,8 +121,8 @@ const App = () => {
         <input className="mr-4" id="searchYear" type="number" placeholder="Year" />
 		{/* Not functional currently, but would implement by storing key and user's nominations array in MongoDB */}
         <input type="textField" placeHolder="key" />
-        <button className="mr-4">Load collection</button>
-        <button>Save collection (to new key)</button>
+        <button className="mr-4">Load nominations</button>
+        <button>Save nominations (to new key)</button>
       </Row>
       <Row>
         <Col>
